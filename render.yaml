@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: lsm-tree-storage-engine
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    region: oregon
+    branch: main
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8080

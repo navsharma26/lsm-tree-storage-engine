@@ -1,0 +1,15 @@
+# Database runtime directories
+data*/
+*.wal
+*.vlog
+*.sst
+*.json
+
+# Binaries and build artifacts
+server_bin
+*.exe
+*.test
+*.prof
+
+# Logs
+*.log
