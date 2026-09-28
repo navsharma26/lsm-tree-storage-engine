@@ -1,9 +1,9 @@
-# Database runtime directories
+# Database runtime files
 data*/
 *.wal
 *.vlog
 *.sst
-*.json
+!vercel.json
 
 # Binaries and build artifacts
 server_bin
